@@ -6,4 +6,4 @@ function countNumber(num) {
     return num.toString().split('').reduce((a,x)=> (+a)+(+x))
 }
 
-console.log(countNumber(123));
+console.log(countNumber(123));  
